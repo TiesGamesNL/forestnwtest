@@ -1,0 +1,358 @@
+/**
+ * HeadsMC - Responsive Minecraft Website Template
+ *
+ * This website template is only available at: http://mc-market.org
+ * Redistribution is strictly prohibited
+ *
+ * Copyright (C) 2014 - AlexKvazos
+ *
+ */
+
+/* == global == */
+html {
+    background-color: #F2F0EB;
+}
+
+body {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.btn-primary {
+    background-color: #F2F0EB;
+    color: #111;
+    border: 1px solid #C4C4C4;
+    border-bottom: 3px solid #C4C4C4;
+    padding: 8px 18px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #e0ded9;
+    border-color: #C4C4C4;
+    color: #111;
+}
+
+.btn-warning {
+    background-color: #FD9332;
+    color: #fff;
+    border: 1px solid #d97a27;
+    border-bottom: 3px solid #d97a27;
+    padding: 8px 18px;
+    font-size: 16px;
+}
+
+.btn-warning:hover {
+    background-color: #e0802a;
+    border-color: #d97a27;
+}
+
+/* == navbar == */
+.navbar-default {
+    background-color: #324049;
+    border-bottom: 3px solid #253036;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav .active a {
+    background-color: #253036;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+    background-color: #253036;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 17px;
+    color: #ddd;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #eee;
+}
+
+/* == banner == */
+@-webkit-keyframes bgscroll {
+    from {background-position:0 0;}
+    to {background-position:0 -422px;}
+}
+
+@-moz-keyframes bgscroll {
+    from {background-position:0 0;}
+    to {background-position:0 -422px;}
+}
+
+@-o-keyframes bgscroll {
+    from {background-position:0 0;}
+    to {background-position:0 -422px;}
+}
+
+@keyframes bgscroll {
+    from {background-position:0 0;}
+    to {background-position:0 -422px;}
+}
+
+header {
+    background-image: url(../img/heads.jpg);
+    text-align: center;
+    color: #fff;
+    padding: 60px 10px;
+    -webkit-animation: bgscroll 25s infinite linear;
+}
+
+header h1 {
+    font-size: 30px;
+    text-shadow: 0 0 10px #000;
+}
+
+@media (min-width: 1170px) {
+    header h1 {
+        font-size: 40px;
+    }
+}
+
+header p {
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 25px;
+    font-size: 14px;
+    color: #dcdcdc;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 1170px) {
+    header p {
+        font-size: 18px;
+    }
+}
+
+header .btn {
+    padding: 8px 30px;
+    margin: 0 5px;
+}
+
+/* == tagline == */
+.tagline {
+    background-color: #324049;
+    color: #F2F0EB;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #253036;
+    margin-bottom: 20px;
+}
+
+.tagline h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+@media (min-width: 1170px) {
+    .tagline h3 {
+        text-align: left;
+        font-size: 23px;
+    }
+}
+
+.tagline span {
+    color: #FD9332;
+}
+
+.tagline p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+@media (min-width: 1170px) {
+    .tagline p {
+        text-align: right;
+    }
+}
+
+
+/* == carousel == */
+.front-carousel {
+    box-shadow: 0 0 8px rgba(0,0,0,0.8);
+    border-top: 4px solid #FD9332;
+    margin-bottom: 20px;
+}
+
+.front-carousel h3 {
+    background-color: #324049;
+    padding: 8px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* == about == */
+.about {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+}
+
+.about h3 {
+    margin-top: 0;
+    background-color: #324049;
+    border-top: 4px solid #FD9332;
+    color: #fff;
+    padding: 8px;
+    margin-bottom: 0;
+}
+
+.about img {
+    border-bottom: 3px solid #253036;
+}
+
+.about .content {
+    padding: 8px;
+}
+
+/* == sidebar == */
+.sb-panel {
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+    border-top: 4px solid #FD9332;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.sb-panel h3 {
+    background-color: #324049;
+    margin: 0;
+    padding: 8px;
+    color: #fff;
+}
+
+.sb-panel .content {
+    padding: 5px;
+}
+
+.sb-panel p {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.sb-panel .list-group {
+    margin-bottom: 0;
+}
+
+.sb-panel .list-group-item {
+    background-color: #fff;
+    padding: 0;
+    margin-bottom: 6px;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+.sb-panel .list-group-item:hover {
+    background-color: #324049;
+    color: #fff;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+/* == servers == */
+.server {
+    border-bottom: 2px solid #253036;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.server h3 {
+    background-color: #324049;
+    color: #fff;
+    padding: 8px;
+    margin: 0;
+    border-top: 4px solid #FD9332;
+}
+
+/* == footer == */
+footer {
+    border-top: 4px solid #FD9332;
+    background-color: #324049;
+    padding: 15px;
+}
+
+footer h2 {
+    margin: 0;
+    text-decoration: underline;
+    text-align: center;
+}
+
+@media (min-width: 1170px) {
+    footer h2 {
+        text-align: left;
+    }
+}
+
+footer h2 a {
+    color: #fff;
+}
+
+footer h2 a:hover {
+    color: #ddd;
+}
+
+footer ul {
+    margin-top: 10px;
+    list-style-type: none;
+    margin: 0 auto;
+    float: none;
+    padding-left: 0;
+}
+
+@media (min-width: 1170px) {
+    footer ul {
+        float: right;
+    }
+}
+
+footer ul li {
+    float: none;
+    text-align: center;
+}
+
+@media (min-width: 1170px) {
+    footer ul li {
+        float: left;
+    }
+}
+
+footer ul li a {
+    text-align: center;
+    color: #fff;
+    padding: 0 0;
+    border: none;
+}
+
+@media (min-width: 1170px) {
+    footer ul li a {
+        border-right: 1px solid #FD9332;
+        padding: 0 15px;
+    }
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+footer ul li:last-child a{
+    border-right: none;
+}
