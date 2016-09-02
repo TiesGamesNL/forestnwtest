@@ -284,9 +284,9 @@ header .btn {
     border-top: 4px solid #FD9332;
 }
 
-/* == footer == */
+/* == footer (#FD9332) == */
 footer {
-    border-top: 4px solid #FD9332;
+    border-top: 4px solid #190707;
     background-color: #324049;
     padding: 15px;
 }
