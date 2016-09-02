@@ -51,7 +51,7 @@ http://query.rightawake.com/
 /* == navbar (#324049) == */
 .navbar-default {
     background-color: #190707;
-    border-bottom: 3px solid #FF8000;
+    /* == border-bottom: 3px solid #FF8000;  == */
 }
 
 .navbar-default .navbar-brand {
