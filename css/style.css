@@ -286,9 +286,9 @@ header .btn {
 
 /* == footer (#FD9332)(#324049) == */
 footer {
-    border-top: 4px solid #190707;
+ /* == border-top: 4px solid #190707; == */
     background-color: #190707;
-    padding: 15px;
+    padding: 10px;
 }
 
 footer h2 {
